@@ -1,0 +1,28 @@
+body{
+    background-image: url(Background/tlo_2.png);
+    background-color: #062033;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: url(Fonts/PressStart2P-Regular.ttf);
+  }
+
+#unity-container{
+    padding: 50px;
+    background: rgba(255,255,255,0.5);
+}
+
+.podpis{
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: PressStart2P;
+    color: white;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
